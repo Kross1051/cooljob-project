@@ -1,0 +1,46 @@
+.category_section {
+  padding: 134px 0 40px;
+  background-color: #e4f2ff;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  margin-top: 45px;
+}
+
+.variatians {
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.btnVacation {
+  display: block;
+  margin: 91px auto 95px;
+  padding: 20px 50px;
+  background-color: #274059;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.subtitle {
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  color: rgba(141, 141, 141, 0.8);
+}

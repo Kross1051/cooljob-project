@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 74.24px 0 64.25px;
+}
+
+.partnersIcons {
+  display: flex;
+  justify-content: space-between;
+  gap: 56.39px;
+  padding: 74.24px 0 64.75px 0;
+}
+.titlePartners {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(105, 105, 105, 0.8);
+}
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

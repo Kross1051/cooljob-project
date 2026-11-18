@@ -1,0 +1,60 @@
+.headerTop {
+  padding: 30px 0px;
+  background-color: #cde7ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerTop__flex1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.headerTop__flexGap {
+  gap: 111px;
+}
+
+.headerTop__gapLinks {
+  gap: 53px;
+}
+.headerTop__link {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.headerTop__gapButtons {
+  display: flex;
+  gap: 38px;
+  align-items: center;
+}
+.category_section {
+  gap: 43px;
+  background-color: #e4f2ff;
+}
+.logo {
+  color: #274059;
+  font-size: 30px;
+
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
+.headerTop__reg {
+  color: #000000cc;
+  font-size: 15px;
+  font-weight: 400;
+}
+.headerTop__login {
+  padding: 13px 14px;
+  border: none;
+  align-items: center;
+  background-color: #ffffff;
+  color: #274059;
+  font-size: 15px;
+  font-weight: 600;
+}

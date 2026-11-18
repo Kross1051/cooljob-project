@@ -1,0 +1,28 @@
+:root {
+  --font-family: 'Raleway', sans-serif;
+  --second-family: 'Red Hat Display', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-family);
+}
+.wrapper {
+  width: 89.583%;
+  margin: 0 auto;
+}
+
+.flex-row-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}

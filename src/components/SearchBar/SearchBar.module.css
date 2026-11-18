@@ -1,0 +1,48 @@
+.searchForm {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  max-width: 920px;
+  height: 105px;
+  background-color: #FFFFFF;
+  box-shadow: 6px 5px 9px 0px #00000059;
+}
+
+.inputGroup {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-left: 32px;
+  padding-right: 16px;
+}
+.inputGroup input {
+  width: 100%;
+
+  border: none;
+  outline: none;
+
+  font-size: 16px;
+}
+
+.divider {
+  width: 1px;
+  height: 30px;
+  background: #d9d9d9;
+}
+
+.searchForm button {
+  width: 170px;
+  height: 100%;
+
+  border: none;
+
+  background: #2d4867;
+  color: white;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
